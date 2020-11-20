@@ -1,0 +1,54 @@
+.header {
+    height: 12vh;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    transition: 0.3s;
+    &_another {
+        position: relative;
+        background-color: #242634;
+        &-make {
+            position: fixed;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__img {
+        height: 11vh;
+        opacity: 0.8;
+        transition: 0.2s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    &__nav {
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        margin-top: 15px;
+        list-style-type: none;
+    }
+    &__link {
+        a {
+            color: $promo-text-color;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            text-transform: uppercase;
+            transition: 0.2s;
+        }
+        &:hover {
+            a {
+                color: #979797;
+                text-decoration: none;
+            }
+        }
+    }
+    &_scrolled {
+        background-color: #242634;
+    }
+}

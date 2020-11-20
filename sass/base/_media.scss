@@ -1,0 +1,543 @@
+@media (max-width: 11990px) {
+    .header {
+        height: 12vh;
+    }
+}
+
+@media (max-width: 1199px) {
+    .header {
+        height: 12%;
+    }
+    .promo {
+        &__title {
+            font-size: 42px;
+            line-height: 48px;
+        }
+        &__subtitle {
+            font-size: 23px;
+        }
+        &__label {
+            font-size: 21px;
+            width: 365px;
+        }
+        &__phone {
+            width: 330px;
+            height: 655px;
+            padding-top: 120px;
+            &_scrolled {
+                transform: translateY(-150vh);
+            }
+        }
+        &__more {
+            font-size: 28px;
+        }
+        &__arrow {
+            img {
+                margin-top: 40px;
+                width: 80%;
+            }
+        }
+        &__pushme {
+            font-size: 14px;
+            margin-top: 25px;
+        }
+
+    }
+    .about {
+        &__img {
+            img {
+                height: 100px;
+            }
+        }
+    }
+    .advantages {
+        &__img {
+            img {
+                height: 100px;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 300px;
+    }
+
+    .bonus {
+        padding-bottom: 300px;
+
+    }
+
+    .reviews {
+        &__items {
+            height: 530px;
+            padding-top: 60px;
+        }
+        &__item {
+            margin-top: 15px;
+        }
+        &__img {
+            img {
+                width: 100px;
+            }
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+    }
+
+    .ways {
+        &__text {
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .divider {
+        width: 60px;
+        height: 3px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        &__social {
+            bottom: 20px;
+        }
+    }
+
+    .promo {
+        &__title {
+            font-size: 36px;
+            line-height: 40px;
+        }
+        &__subtitle {
+            font-size: 18px;
+            width: 360px;
+            line-height: 28px;
+        }
+        &__label {
+            font-size: 16px;
+            width: 275px;
+        }
+        &__phone {
+            width: 280px;
+            height: 565px;
+            padding-top: 100px;
+            &_scrolled {
+                transform: translateY(-125vh);
+            }
+        }
+        &__more {
+            font-size: 24px;
+        }
+        &__arrow {
+            width: 55px;
+            img {
+                width: 100%;
+                margin-top: 35px;
+            }
+        }
+    }
+
+    .about {
+        &__title {
+            font-size: 21px;
+            line-height: 25px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__img {
+            img {
+                height: 80px;
+            }
+        }
+    }
+
+    .advantages {
+        &__title {
+            font-size: 21px;
+            line-height: 25px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__img {
+            img {
+                height: 80px;
+            }
+        }
+    }
+
+    .reviews {
+        &__items {
+            background: none;
+            padding: 0;
+            height: 100%;
+        }
+        &__wrapper {
+            width: 90%;
+        }
+    }
+
+    .catalog {
+        padding-bottom: 270px;
+        &__item {
+            min-height: 300px;
+        }
+        &__price {
+            font-size: 18px;
+        }
+    }
+
+    .bonus {
+        padding-bottom: 270px;
+        &__item {
+            width: 320px;
+            height: 240px;
+        }
+        &__title {
+            font-size: 24px;
+            width: 250px;
+        }
+    }
+
+    .form {
+        &-title {
+            font-size: 14px;
+            text-align: center;
+        }
+        &-wrapper {
+            margin-top: 7px;
+        }
+    }
+
+    .history {
+        &__img {
+            img {
+                width: 225px;
+            }
+        }
+    }
+    .ways {
+        &__img {
+            img {
+                height: 150px;
+            }
+        }
+        &__text {
+            width: 420px;
+        }
+        &__title {
+            font-size: 21px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+    }
+
+    .footer {
+        &__logo {
+            display: none;
+        }
+        &__download {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .header {
+        height: 12.5%;
+        &__nav {
+            display: none;
+        }
+    }
+
+    .menu {
+        &__block {
+            width: 90%;
+        }
+        &__link {
+            font-size: 18px;
+            &:before {
+                width: 10px;
+                height: 10px;
+                top: 12px;
+            }
+        }
+        &__social {
+            a {
+                font-size: 11px;
+            }
+        }
+    }
+
+    .promo {
+        background: url('../img/bg/mobile_bg.jpg') center (center / cover) no-repeat;
+        min-height: 600px;
+        padding-top: 40vh;
+        &__phone {
+            display: none;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__subtitle {
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+        &__label {
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+
+    .about {
+        &__descr {
+            text-align: center;
+        }
+        &__title {
+            text-align: center;
+        }
+    }
+
+    .advantages {
+        &__descr {
+            text-align: center;
+        }
+        &__title {
+            text-align: center;
+        }
+    }
+
+    .reviews {
+        &__img {
+            img {
+                width: 80px;
+            }
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__status {
+            margin-left: 10px;
+            font-size: 13px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+
+    .bonus {
+        &__row {
+            flex-direction: column;
+        }
+        &__item {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    .history {
+        &__img {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    .ways {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__text {
+            width: 97%;
+        }
+        &__title {
+            text-align: center;
+            margin-top: 10px;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+        }
+        &__img {
+            &-boot {
+                width: 150px;
+            }
+        }
+    }
+
+    .map {
+        &-loading {
+            font-size: 30px;
+        }
+        &-load {
+            font-size: 12px;
+        }
+    }
+
+    .footer {
+        &__maker {
+            font-size: 11px;
+        }
+        &__link {
+            font-size: 12px;
+            &-make {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .reviews {
+        &__img {
+            display: none;
+        }
+    }
+    .footer {
+        &__header {
+            flex-direction: column;
+            padding-left: 0;
+        }
+        &__link {
+            display: block;
+            margin: 0 auto;
+            a {
+                text-align: center;
+            }
+            &:first-child {
+                border-right: none;
+            }
+            &-make {
+                display: block;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+        }
+        &__down {
+            flex-direction: column-reverse;
+        }
+        &__maker {
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .bonus {
+        &__item {
+            width: 95%;
+            height: 260px;
+        }
+    }
+
+    .form {
+        &-title {
+            font-size: 12px;
+        }
+        &-btn {
+            width: 135px;
+            height: 45px;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+    #more {
+        &-form {
+            width: 355px;
+        }
+        &-phone {
+            width: 200px;
+            height: 45px;
+            padding-left: 15px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 355px) {
+    .menu {
+        &__social {
+            width: 95%;
+            text-align: center;
+        }
+    }
+    .catalog {
+        padding-bottom: 215px;
+    }
+    .bonus {
+        padding-bottom: 215px;
+        &__title {
+            font-size: 20px;
+            width: 97%;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .form {
+        &-title {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+        }
+        &-btn {
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        &-wrapper {
+            flex-direction: column;
+        }
+    }
+    #more {
+        &-form {
+            width: 100%;
+        }
+        &-phone {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    .bonus {
+        &__text {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (min-height: 1000px) {
+    .promo {
+        height: 700px;
+    }
+}
+
+@media (min-height: 1200px) {
+    .promo {
+        height: 900px;
+    }
+}

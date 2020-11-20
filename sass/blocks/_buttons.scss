@@ -1,0 +1,14 @@
+button {
+    background-color: $button-color;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    transition: 0.1s;
+    text-transform: uppercase;
+    outline: none;
+    &:hover {
+        background-color: #be1616;
+        outline: none;
+    }
+}

@@ -1,0 +1,104 @@
+.bonus {
+    padding-top: 20vh;
+    padding-bottom: 30vh;
+    position: relative;
+    &__items {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        margin-top: 30px;
+        width: 400px;
+        min-height: 240px;
+        border: 1px #626262 solid;
+        overflow: hidden;
+    }
+    &__row {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__wrapper {
+        display: flex;
+        width: 200%;
+        height: 100%;
+    }
+    &__main {
+        width: 50%;
+        padding-top: 70px;
+        position: relative;
+        // margin-right: 0px;
+        transform: translateX(-100%);
+        transition: 0.3s;
+        &-1 {
+            background: url('../img/bonus/1.jpg') center (center / cover) no-repeat;
+        }
+        &-2 {
+            background: url('../img/bonus/2.jpg') center (center / cover) no-repeat;
+            padding-top: 50px;
+        }
+        &-3 {
+            background: url('../img/bonus/3.jpg') center (center / cover) no-repeat;
+            padding-top: 50px;
+        }
+        &-4 {
+            background: url('../img/bonus/4.jpg') center (center / cover) no-repeat;
+        }
+        &_active {
+            // margin-right: 50px;
+            transform: translateX(0%);
+            padding-right: 0;
+        }
+    }
+    &__descr {
+        width: 50%;
+        background-color: #fdfdfd;
+        position: relative;
+        padding: 20px;
+        padding-bottom: 60px;
+        transform: translateX(0%);
+        transition: 0.3s;
+        // margin-left: 50px;
+        &_active {
+            transform: translateX(-100%);
+            margin-left: 0;
+            // padding-right: 0;
+        }
+    }
+    &__title {
+        color: #ffffff;
+        font-weight: 900;
+        text-align: center;
+        font-size: 32px;
+        width: 330px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__link {
+        display: block;
+        position: absolute;
+        bottom: 35px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #000000;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
+        font-weight: 400;
+        background: none;
+        &:hover {
+            background: none;
+            color: #000000;
+            text-decoration: none;
+        }
+        &-more {
+            color: #ffffff;
+            &:hover {
+                color: #ffffff;
+            }
+        }
+    }
+    &__text {
+        text-align: justify;
+    }
+}

@@ -1,0 +1,28 @@
+.history {
+    padding-top: 20vh;
+    padding-bottom: 12vh;
+    background-color: #FDFDFD;
+    .row {
+        align-items: center;
+    }
+    &__img {
+        margin-top: 40px;
+        img {
+            width: 350px;
+        }
+        &-big {
+            img {
+                width: 196px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    &__descr {
+        margin-top: 40px;
+        span {
+            font-weight: 700;
+            color: red;
+        }
+    }
+}
