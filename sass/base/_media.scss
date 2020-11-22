@@ -361,6 +361,9 @@
             text-align: center;
             font-size: 15px;
         }
+        &__warning {
+            display: none;
+        }
     }
     .ways {
         &__wrapper {
@@ -393,6 +396,8 @@
         }
     }
 
+
+
     .footer {
         &__maker {
             font-size: 11px;
@@ -410,6 +415,12 @@
     .reviews {
         &__img {
             display: none;
+        }
+    }
+    .modal {
+        &__close {
+            top: 5px;
+            right: 5px;
         }
     }
     .footer {
@@ -523,6 +534,9 @@
 }
 
 @media (max-width: 340px) {
+    .modal {
+        width: 90%;
+    }
     .bonus {
         &__text {
             font-size: 15px;
